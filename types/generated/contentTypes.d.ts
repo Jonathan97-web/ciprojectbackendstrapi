@@ -374,8 +374,8 @@ export interface ApiProjectProject extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    Title: Attribute.String;
-    Description: Attribute.String;
+    title: Attribute.String;
+    description: Attribute.String;
     githubURL: Attribute.String;
     deployedURL: Attribute.String;
     projectImage: Attribute.Media<'images', true>;
